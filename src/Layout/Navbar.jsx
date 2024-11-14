@@ -40,12 +40,19 @@ const Navbar = () => {
               sx={{
                 display: "flex",
                 alignItems: "center",
-                justifyContent:'center',
+                justifyContent: "center",
                 mt: {
                   mobile: ".1rem",
                   tablet: ".3rem",
                   laptop: ".4rem",
                 },
+                position: {
+                  laptop: "relative",
+                },
+                right:{
+                  laptop:'50px',
+                  desktop:'100px'
+                }
               }}
             >
               <Typography
@@ -184,7 +191,7 @@ const Navbar = () => {
                 alignItems: "center",
                 justifyContent: "center",
                 mt: {
-                    mobile:'.3rem',
+                  mobile: ".1rem",
                   laptop: ".5rem",
                 },
                 position: {
@@ -193,8 +200,8 @@ const Navbar = () => {
                 },
                 right: {
                   mobile: "53px",
-                  tablet:'60px',
-                  laptop:'0px'
+                  tablet: "60px",
+                  laptop: "0px",
                 },
               }}
             >
@@ -203,11 +210,10 @@ const Navbar = () => {
                   display: "flex",
                   alignItems: "center",
                   gap: {
-                    mobile: "5px",
-                    tablet: "10px",
-                    laptop: "20px",
+                    mobile: "1px",
+                    tablet: "5px",
+                    laptop: "10px",
                   },
-
                 }}
               >
                 <IconButton aria-label="search">
@@ -223,9 +229,15 @@ const Navbar = () => {
                     bgcolor: "#39DB4A",
                     borderRadius: "40px",
                     color: "#fff",
-                    padding:{
-                        mobile:"10px 10px",
-                        laptop:"10px 20px"
+                    padding: {
+                      mobile: "10px 18px",
+                      laptop: "10px 25px",
+                    },
+                    textTransform: "none",
+                    fontSize: {
+                      mobile: "16px",
+                      laptop: "19px",
+                      desktop: "26px",
                     },
                   }}
                 >
