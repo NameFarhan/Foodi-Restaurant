@@ -1,9 +1,9 @@
 import { useTheme } from "@emotion/react";
 import { Box, Button, Grid2, IconButton, Typography } from "@mui/material";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
-import HeroImage from "../Images/Hero.webp";
-import Herobox from "../Images/Herobox.webp";
-import Herobox2 from "../Images/Herobox2.webp";
+import HeroImage from "../Images/hero.webp";
+import Herobox from "../Images/herobox.webp";
+import Herobox2 from "../Images/herobox2.webp";
 import Stars from "../MuiComponents/Stars";
 
 const Hero = () => {
