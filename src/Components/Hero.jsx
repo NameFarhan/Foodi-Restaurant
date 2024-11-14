@@ -10,7 +10,10 @@ const Hero = () => {
   const theme = useTheme();
   return (
     <>
-      <Box sx={{ padding: "10vh 7vw" }}>
+      <Box sx={{ padding: {
+        mobile:"10vh 7vw",
+        tablet:"15vh 7vw"
+      } }}>
         <Grid2 container spacing={8}>
           <Grid2
             item
