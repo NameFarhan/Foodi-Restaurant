@@ -10,10 +10,14 @@ const Hero = () => {
   const theme = useTheme();
   return (
     <>
-      <Box sx={{ padding: {
-        mobile:"10vh 7vw",
-        tablet:"15vh 7vw"
-      } }}>
+      <Box
+        sx={{
+          padding: {
+            mobile: "10vh 7vw",
+            tablet: "15vh 7vw",
+          },
+        }}
+      >
         <Grid2 container spacing={8}>
           <Grid2
             item
@@ -102,7 +106,7 @@ const Hero = () => {
                         desktop: "26px",
                       },
                       padding: "6px 25px",
-                    boxShadow: "0px 4px 10px rgba(57, 219, 74, 1)",
+                      boxShadow: "0px 4px 10px rgba(57, 219, 74, 1)",
                     }}
                   >
                     Order Now
@@ -202,7 +206,7 @@ const Hero = () => {
                         mobile: "14px",
                         laptop: "20px",
                       },
-                      fontWeight:'700'
+                      fontWeight: "700",
                     }}
                     variant="body2"
                     fontWeight="bold"
@@ -218,9 +222,11 @@ const Hero = () => {
                     },
                     justifyContent: "space-between",
                     position: "absolute",
-                    bottom: {
-                      mobile: "-300px",
-                      tablet: "-50px",
+                    top: {
+                      mobile: "350px",
+                      tablet: "400px",
+                      laptop:'360px',
+                      desktop:'450px'
                     }, // Adjust this value as needed
                     left: {
                       mobile: "50%",
