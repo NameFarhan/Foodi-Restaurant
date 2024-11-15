@@ -24,6 +24,7 @@ const Categories = () => {
           top: {
             mobile: "250px",
           },
+          mt:'12vh'
         }}
       >
         <Typography
@@ -38,6 +39,7 @@ const Categories = () => {
               laptop: "20px",
             },
             mb: "1rem",
+            textTransform:'uppercase'
           }}
         >
           Customer Favorites
