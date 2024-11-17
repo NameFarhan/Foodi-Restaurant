@@ -5,6 +5,8 @@ import Categories from "../Components/Categories";
 import Menu from "../Components/Menu";
 import Testimonials from "../Components/Testimonials";
 import Services from "../Components/Services";
+import Footer from "../Components/Footer";
+import FooterLinks from "../Components/FooterLinks";
 
 const Home = () => {
   return (
@@ -15,6 +17,8 @@ const Home = () => {
     <Menu/>
     <Testimonials/>
     <Services/>
+    <Footer/>
+    <FooterLinks/>
     </>
   );
 };

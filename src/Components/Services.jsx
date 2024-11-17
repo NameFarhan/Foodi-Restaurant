@@ -19,7 +19,13 @@ const Services = () => {
           },
         }}
       >
-        <Grid2 container spacing={3}>
+        <Grid2
+          container
+          spacing={{
+            mobile: 6,
+            laptop: 3,
+          }}
+        >
           <Grid2
             item
             size={{
