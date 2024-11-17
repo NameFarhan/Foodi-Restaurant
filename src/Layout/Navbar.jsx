@@ -35,7 +35,7 @@ const Navbar = () => {
     <>
       <Box sx={{ padding: "2vh 7vw" }}>
         <Grid2 container>
-          <Grid2 item size={3}>
+          <Grid2 data-aos="fade-right"	 item size={3}>
             <Box
               sx={{
                 display: "flex",
@@ -97,7 +97,7 @@ const Navbar = () => {
                 mt: ".6rem",
               }}
             >
-              <Grid2 container spacing={2}>
+              <Grid2 data-aos="fade-in" container spacing={2}>
                 <Grid2 item xs={3}>
                   <Button
                     sx={{
@@ -184,7 +184,7 @@ const Navbar = () => {
             </Box>
           </Grid2>
 
-          <Grid2 item size={3}>
+          <Grid2 data-aos="fade-left" item size={3}>
             <Box
               sx={{
                 display: "flex",

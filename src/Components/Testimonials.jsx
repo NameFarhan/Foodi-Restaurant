@@ -18,13 +18,17 @@ const Testimonials = () => {
           },
         }}
       >
-        <Grid2 container spacing={{
-            mobile:0,
-            tablet:0,
-            laptop:8,
-            desktop:0
-        }}>
+        <Grid2
+          container
+          spacing={{
+            mobile: 0,
+            tablet: 0,
+            laptop: 8,
+            desktop: 0,
+          }}
+        >
           <Grid2
+            data-aos="fade-right"
             item
             size={{
               mobile: 12,
@@ -87,7 +91,7 @@ const Testimonials = () => {
                       mobile: "2px",
                       tablet: "180px",
                       laptop: "255px",
-                      desktop:'300px'
+                      desktop: "300px",
                     },
                     width: "250px",
                     height: "50px",
@@ -123,10 +127,10 @@ const Testimonials = () => {
                     justifyContent: "center",
                     alignItems: "center",
                     fontSize: {
-                        mobile:'22px',
-                        tablet:'26px',
-                        laptop:'26px',
-                        desktop:'28px'
+                      mobile: "22px",
+                      tablet: "26px",
+                      laptop: "26px",
+                      desktop: "28px",
                     }, // Adjust emoji size
                   }}
                 >
@@ -158,6 +162,7 @@ const Testimonials = () => {
             </Box>
           </Grid2>
           <Grid2
+            data-aos="fade-left"
             item
             size={{
               mobile: 12,

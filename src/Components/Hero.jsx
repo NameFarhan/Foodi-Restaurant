@@ -20,6 +20,7 @@ const Hero = () => {
       >
         <Grid2 container spacing={8}>
           <Grid2
+          data-aos="fade-right"
             item
             size={{
               mobile: 12,
@@ -143,6 +144,7 @@ const Hero = () => {
             </Box>
           </Grid2>
           <Grid2
+          data-aos="fade-left"
             item
             size={{
               mobile: 12,

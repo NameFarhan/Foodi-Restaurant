@@ -17,6 +17,7 @@ const Footer = () => {
       >
         <Grid2 container spacing={5}>
           <Grid2
+            data-aos="fade-right"
             item
             size={{
               mobile: 12,
@@ -94,6 +95,7 @@ const Footer = () => {
             </Box>
           </Grid2>
           <Grid2
+            data-aos="fade-right"
             item
             size={{
               mobile: 12,
@@ -196,6 +198,7 @@ const Footer = () => {
             </Box>
           </Grid2>
           <Grid2
+            data-aos="fade-left"
             item
             size={{
               mobile: 12,
@@ -305,6 +308,7 @@ const Footer = () => {
             </Box>
           </Grid2>
           <Grid2
+            data-aos="fade-left"
             item
             size={{
               mobile: 12,

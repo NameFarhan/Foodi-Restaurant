@@ -27,6 +27,7 @@ const Services = () => {
           }}
         >
           <Grid2
+            data-aos="fade-right"
             item
             size={{
               mobile: 12,
@@ -143,6 +144,7 @@ const Services = () => {
             >
               <Grid2 container spacing={3}>
                 <Grid2
+                  data-aos="flip-down"
                   item
                   size={{
                     mobile: 12,
@@ -211,6 +213,7 @@ const Services = () => {
                   </Box>
                 </Grid2>
                 <Grid2
+                  data-aos="flip-down"
                   item
                   size={{
                     mobile: 12,
@@ -279,6 +282,7 @@ const Services = () => {
                   </Box>
                 </Grid2>
                 <Grid2
+                  data-aos="flip-down"
                   item
                   size={{
                     mobile: 12,
@@ -347,6 +351,7 @@ const Services = () => {
                   </Box>
                 </Grid2>
                 <Grid2
+                  data-aos="flip-down"
                   item
                   size={{
                     mobile: 12,

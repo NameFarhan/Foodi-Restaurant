@@ -15,11 +15,12 @@ const Menu = () => {
           mt: {
             mobile: "47vh",
             tablet: "0vh",
-            laptop:'15vh'
+            laptop: "15vh",
           },
         }}
       >
         <Typography
+          data-aos="fade-in"
           sx={{
             color: "#FF6868",
             fontWeight: "800",
@@ -41,6 +42,7 @@ const Menu = () => {
           Special Dishes
         </Typography>
         <Typography
+          data-aos="fade-in"
           sx={{
             color: "#000000",
             fontWeight: "800",
@@ -60,9 +62,7 @@ const Menu = () => {
         >
           Standout Dishes From Our Menu
         </Typography>
-        <Box>
-          Area For Slider
-        </Box>
+        <Box data-aos="fade-in">Area For Slider</Box>
       </Box>
     </>
   );

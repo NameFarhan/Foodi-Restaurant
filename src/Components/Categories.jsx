@@ -24,10 +24,11 @@ const Categories = () => {
           top: {
             mobile: "250px",
           },
-          mt:'12vh'
+          mt: "12vh",
         }}
       >
         <Typography
+          data-aos="fade-in"
           sx={{
             textAlign: "center",
             color: "#FF6868",
@@ -39,12 +40,13 @@ const Categories = () => {
               laptop: "20px",
             },
             mb: "1rem",
-            textTransform:'uppercase'
+            textTransform: "uppercase",
           }}
         >
           Customer Favorites
         </Typography>
         <Typography
+          data-aos="fade-in"
           sx={{
             textAlign: "center",
             color: "#000000",
@@ -61,6 +63,7 @@ const Categories = () => {
 
         <Grid2 container spacing={5}>
           <Grid2
+            data-aos="flip-down"
             item
             size={{
               mobile: 12,
@@ -139,6 +142,7 @@ const Categories = () => {
             </Box>
           </Grid2>
           <Grid2
+          data-aos="flip-down"
             item
             size={{
               mobile: 12,
@@ -217,6 +221,7 @@ const Categories = () => {
             </Box>
           </Grid2>
           <Grid2
+          data-aos="flip-down"
             item
             size={{
               mobile: 12,
@@ -295,6 +300,8 @@ const Categories = () => {
             </Box>
           </Grid2>
           <Grid2
+          data-aos="flip-down"
+
             item
             size={{
               mobile: 12,
