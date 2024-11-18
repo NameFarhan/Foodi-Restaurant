@@ -11,7 +11,7 @@ const Footer = () => {
           padding: {
             mobile: "10vh 7vw",
             tablet: "15vh 7vw",
-            laptop: "9vh 7vw",
+            laptop: "20vh 7vw",
           },
         }}
       >
@@ -131,7 +131,7 @@ const Footer = () => {
                   sx={{
                     display: "flex",
                     flexDirection: "column",
-                    gap: "20px",
+                    gap: "40px",
                     justifyContent: "center",
                     alignItems: "center",
                     textAlign: "center",
@@ -241,7 +241,7 @@ const Footer = () => {
                   sx={{
                     display: "flex",
                     flexDirection: "column",
-                    gap: "20px",
+                    gap: "40px",
                     justifyContent: "center",
                     alignItems: "center",
                     textAlign: "center",
@@ -348,7 +348,7 @@ const Footer = () => {
                   Contact Us
                 </Box>
                 <Box
-                  sx={{ display: "flex", flexDirection: "column", gap: "20px" }}
+                  sx={{ display: "flex", flexDirection: "column", gap: "40px" }}
                 >
                   <Typography
                     sx={{

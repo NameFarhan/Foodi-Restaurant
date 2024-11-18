@@ -14,7 +14,7 @@ const Testimonials = () => {
           padding: {
             mobile: "10vh 7vw",
             tablet: "15vh 7vw",
-            laptop: "9vh 7vw",
+            laptop: "20vh 7vw",
           },
         }}
       >
@@ -180,7 +180,7 @@ const Testimonials = () => {
                   laptop: "0",
                 },
                 ml: {
-                  laptop: "4vw",
+                  laptop: "3vw",
                 },
               }}
             >
@@ -192,7 +192,7 @@ const Testimonials = () => {
                     laptop: "flex-start",
                   },
                   flexDirection: "column",
-                  gap: "30px",
+                  gap: "50px",
                   textAlign: {
                     mobile: "center",
                     laptop: "left",

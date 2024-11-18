@@ -15,7 +15,7 @@ const Services = () => {
           padding: {
             mobile: "10vh 7vw",
             tablet: "15vh 7vw",
-            laptop: "9vh 7vw",
+            laptop: "20vh 7vw",
           },
         }}
       >
@@ -45,7 +45,7 @@ const Services = () => {
                 sx={{
                   display: "flex",
                   flexDirection: "column",
-                  gap: "30px",
+                  gap: "50px",
                   justifyContent: {
                     mobile: "center",
                     laptop: "unset",

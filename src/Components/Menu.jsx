@@ -10,7 +10,7 @@ const Menu = () => {
           padding: {
             mobile: "10vh 7vw",
             tablet: "15vh 7vw",
-            laptop: "9vh 7vw",
+            laptop: "20vh 7vw",
           },
           mt: {
             mobile: "47vh",
@@ -32,7 +32,7 @@ const Menu = () => {
               desktop: "20px",
             },
             textTransform: "uppercase",
-            mb: "1rem",
+            mb: "3rem",
             textAlign: {
               mobile: "center",
               laptop: "left",
@@ -53,7 +53,7 @@ const Menu = () => {
               laptop: "50px",
               desktop: "60px",
             },
-            mb: "1rem",
+            mb: "3rem",
             textAlign: {
               mobile: "center",
               laptop: "left",

@@ -15,7 +15,7 @@ const Categories = () => {
           padding: {
             mobile: "10vh 7vw",
             tablet: "15vh 7vw",
-            laptop: "9vh 7vw",
+            laptop: "20vh 7vw",
           },
           position: {
             mobile: "relative",
@@ -39,7 +39,7 @@ const Categories = () => {
               tablet: "15px",
               laptop: "20px",
             },
-            mb: "1rem",
+            mb: "2rem",
             textTransform: "uppercase",
           }}
         >
@@ -55,7 +55,7 @@ const Categories = () => {
               mobile: "32px",
               laptop: "50px",
             },
-            mb: "2rem",
+            mb: "4rem",
           }}
         >
           Popular Catagories
