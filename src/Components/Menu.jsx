@@ -1,5 +1,6 @@
 import { useTheme } from "@emotion/react";
 import { Box, Typography } from "@mui/material";
+import TestSlider from "./TestSlider";
 
 const Menu = () => {
   const theme = useTheme();
@@ -53,7 +54,7 @@ const Menu = () => {
               laptop: "50px",
               desktop: "60px",
             },
-            mb: "3rem",
+            mb: "5rem",
             textAlign: {
               mobile: "center",
               laptop: "left",
@@ -62,7 +63,9 @@ const Menu = () => {
         >
           Standout Dishes From Our Menu
         </Typography>
-        <Box data-aos="fade-in">Area For Slider</Box>
+        <Box data-aos="flip-up">
+          <TestSlider/>
+        </Box>
       </Box>
     </>
   );
