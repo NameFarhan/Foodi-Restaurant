@@ -33,13 +33,27 @@ body {
 }
 
 .slick-arrow:hover::before {
-  background-color: #39DB4A; /* Change background color on hover */
+  background-color: #39db4a; /* Change background color on hover */
   color: white; /* Change text/icon color on hover */
 }
 
-.slick-prev{
+.slick-prev {
   margin-left: -56px;
 }
-.slick-next{
+.slick-next {
   margin-right: 3px;
+}
+
+.slick-slide {
+  padding: 0 10px; /* Adds space between slides */
+  box-sizing: border-box;
+}
+
+.slick-list {
+  margin: 0 -10px; /* Adjust for the padding added to slides */
+}
+
+.slick-track {
+  display: flex !important; /* Ensure flexbox layout */
+  gap: 20px; /* Space between items */
 }

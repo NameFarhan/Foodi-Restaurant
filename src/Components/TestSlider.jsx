@@ -60,30 +60,14 @@ function TestSlider() {
       price: "23.00",
       rating: "4.5",
     },
-    {
-      id: 4,
-      Image: menu1,
-      title: "Fattoush salad",
-      description: "Description of the item",
-      price: "24.00",
-      rating: "4.9",
-    },
-    {
-      id: 5,
-      Image: menu2,
-      title: "Title Of the product",
-      description: "Description of the item",
-      price: "26.00",
-      rating: "4.6",
-    },
   ];
 
   return (
     <Box
-      sx={{ width: "80%", height: "100%", margin: "0 auto", padding: "20px" }}
+      sx={{ width: "80%", height: "100%", margin: "0 auto" }}
       className="card-slider"
     >
-      <Slider {...settings}>
+      <Slider sx={{padding:'0 10px'}} {...settings}>
         {cards.map((card) => (
           <Box
             sx={{
@@ -92,7 +76,7 @@ function TestSlider() {
                 mobile: "30px 40px",
                 desktop: "50px 40px",
               },
-              boxShadow: "0px 10px 60px rgba(0, 0, 0, 0.1)",
+              boxShadow: "0px 1px 10px rgba(0, 0, 0, 0.1)",
               bgcolor: "#fff",
               border: "none",
               outline: "none",
